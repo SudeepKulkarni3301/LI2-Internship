@@ -1,1 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <title>RFID Reader</title>
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <h1>RFID Reader</h1>
+        <table id="rfid-data">
+            <thead>
+                <tr>
+                    <th>Tag Value</th>
+                    <th>Timestamp</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </body>
+</html>
 
